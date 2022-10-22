@@ -33,6 +33,11 @@
 				var c = table.config;
 				c.page = 0;
 				moveToPage(table);
+				
+				function moveToFirstPage(table) {
+				var c = table.config;
+				c.page = 0;
+				moveToPage(table);
 			}
 			
 			function moveToLastPage(table) {
